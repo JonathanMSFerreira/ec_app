@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "792104214105",
+    "firebase_url": "https://ecapp-b2e6a.firebaseio.com",
+    "project_id": "ecapp-b2e6a",
+    "storage_bucket": "ecapp-b2e6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792104214105:android:490813e7392403aa",
+        "android_client_info": {
+          "package_name": "br.com.jonathanmsf.ecapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792104214105-av7v1gsk3uom1nvckqaef8ai6jdsp4a3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCslxgHACBU7OdX_yTznSkJ3ZvchkB_HKo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
