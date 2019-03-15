@@ -12,13 +12,15 @@ class ProdutoView extends StatefulWidget {
 }
 
 class _ProdutoViewState extends State<ProdutoView> {
-  final Produto _produto;
+   final Produto _produto;
+
+   String _tamSelecionado;
 
   _ProdutoViewState(this._produto);
 
   @override
   Widget build(BuildContext context) {
-    String _tamSelecionado = "";
+
 
     final Color _primaryColor = Theme.of(context).primaryColor;
 
@@ -87,7 +89,7 @@ class _ProdutoViewState extends State<ProdutoView> {
                                     BorderRadius.all(Radius.circular(4.0)),
                                 border: Border.all(
                                     color: s == _tamSelecionado ? _primaryColor : Colors.grey[500],
-                                    width: 3.0)
+                                    width: 2.0)
                             ),
                             width: 50.0,
                             alignment: Alignment.center,
@@ -100,9 +102,9 @@ class _ProdutoViewState extends State<ProdutoView> {
                   height: 10.0,
                 ),
                 SizedBox(
-                  height: 40.0,
+                  height: 44.0,
                   child: RaisedButton(
-                    color: _primaryColor,
+                    color: _tamSelecionado == null ? null : Colors.green,
                     onPressed: () {},
                     child: Text(
                       "Adicionar ao Carrinho",
